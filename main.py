@@ -11,7 +11,7 @@ def pokemon_number(birth_day, age):
 
 def full_age_range(birth_day):
     for i in range(80):
-        print(f"{i + 1}. {pokemon_number(birth_day, i)})
+        print(f"{i+1}. {pokemon_number(birth_day, i+1)}")
 
 
 age_range = int(input('if you want just your current age hit 0, if you want to know pokemon for 1-80 press 1: '))
