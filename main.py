@@ -1,6 +1,11 @@
-# takes birth day and birth month, adds them
+# takes birth day and age, adds them
 # multiplies num by 4
 # searches csv for pokemon
+
+import csv
+
+fields = []
+rows = []
 
 birth_day = int(input('what day were you born on?: '))
 
