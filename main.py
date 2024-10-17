@@ -5,7 +5,9 @@
 birth_day = int(input('what day were you born on?: '))
 age = int(input('whats your age?: '))
 
-age_range = bool(input('if you want just your current age hit 0, if you want to know pokemon for 1-80 press 1'))
+age_range = int(input('if you want just your current age hit 0, if you want to know pokemon for 1-80 press 1: '))
+swich age_range:
+
 print(age_range)
 
 def pokemon_number(birth_day, age):
